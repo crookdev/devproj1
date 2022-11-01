@@ -1,6 +1,6 @@
 FROM alpine:latest
 MAINTAINER user@domain.com
-RUN apk add-y httpd \
+RUN apk add -y httpd \
 zip \
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/

@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTANER user@domain.com
+MAINTAiNER user@domain.com
 RUN yum install -y httpd \
 zip\
 unzip
